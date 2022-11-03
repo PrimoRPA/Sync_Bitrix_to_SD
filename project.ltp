@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Project>
+        <Name>Bitrix24 to SD</Name>
+        <TypeSort>1</TypeSort>
+        <Description>Синхронизация списка клиентов между CRM (Bitrix24) и системой трекинга заявок (OkDesk)</Description>
+    </Project>
+    <RunConfig>None</RunConfig>
+    <RobotEdition>Enterprise</RobotEdition>
+</LTProjectRoot>
