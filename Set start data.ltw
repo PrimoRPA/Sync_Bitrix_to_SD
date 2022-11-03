@@ -10,12 +10,7 @@
         <Properties>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
-<<<<<<< Updated upstream:Post to SD.ltw
-                <Name>ComponentName</Name>
-                <Value xsi:type="xsd:string">Последовательность</Value>
-=======
                 <Name>TextTag</Name>
->>>>>>> Stashed changes:Set start data.ltw
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
@@ -42,11 +37,7 @@
             <SerializationItem>
                 <IsListValue>false</IsListValue>
                 <Name>ComponentID</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                <Value xmlns:q1="http://microsoft.com/wsdl/types/" xsi:type="q1:guid">a2f055f7-9baf-426c-9ad5-83100dc51bb2</Value>
-=======
                 <Value xmlns:q1="http://microsoft.com/wsdl/types/" xsi:type="q1:guid">bd152894-5139-404c-91a0-4d6099475738</Value>
->>>>>>> Stashed changes:Set start data.ltw
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
@@ -97,29 +88,17 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Variable</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">companyAddress</Value>
-=======
                         <Value xsi:type="xsd:string">out_pathToFolder</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Data</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">in_bitrixCompany.SelectToken("$.ADDRESS").ToString()</Value>
-=======
                         <Value xsi:type="xsd:string">System.IO.Directory.GetParent(_Workflow.CurrentWorkflowPath).ToString()</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">Название компании в Bitrix</Value>
-=======
                         <Value xsi:type="xsd:string">Находим путь к директории проекта</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -128,10 +107,6 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>TextTag</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">Then</Value>
-=======
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -144,115 +119,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xmlns:q2="http://microsoft.com/wsdl/types/" xsi:type="q2:guid">63a9acb5-93a3-4f9e-a67f-18ce5874a21d</Value>
-=======
                         <Value xmlns:q2="http://microsoft.com/wsdl/types/" xsi:type="q2:guid">6648eb9b-ff03-4071-b8cf-32b5a04aab85</Value>
->>>>>>> Stashed changes:Set start data.ltw
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ContinueOnException</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>PreventLogging</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>SSSuccess</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>SSFail</Name>
-=======
->>>>>>> Stashed changes:Set start data.ltw
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>true</IsListValue>
-                        <Name>NoCodeProperties</Name>
-                        <ListValue />
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Name>NoCodeUsed</Name>
-=======
-                        <Name>SSSuccess</Name>
->>>>>>> Stashed changes:Set start data.ltw
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Name>IsCollapsed</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ShowAnnotation</Name>
-=======
-                        <Name>SSFail</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>true</IsListValue>
-                        <Name>NoCodeProperties</Name>
-                        <ListValue />
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>NoCodeUsed</Name>
->>>>>>> Stashed changes:Set start data.ltw
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                </Properties>
-            </SerializationComponent>
-            <SerializationComponent>
-                <ClassName>LTools.Workflow.Elements.WFAssign</ClassName>
-                <AssemblyName>LTools.Workflow, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
-                <Properties>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Variable</Name>
-                        <Value xsi:type="xsd:string">companyEmail</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Data</Name>
-                        <Value xsi:type="xsd:string">in_bitrixCompany.SelectToken("$.TITLE").ToString()</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Название компании в Bitrix</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Annotation</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>TextTag</Name>
-                        <Value xsi:type="xsd:string">Then</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>WaitBefore</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>WaitAfter</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ComponentID</Name>
-                        <Value xmlns:q3="http://microsoft.com/wsdl/types/" xsi:type="q3:guid">295c664c-739a-4524-8211-3589368fe6a0</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -286,39 +153,6 @@
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
-                        <Name>IsCollapsed</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ShowAnnotation</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                </Properties>
-            </SerializationComponent>
-            <SerializationComponent>
-                <ClassName>LTools.Workflow.Elements.WFAssign</ClassName>
-                <AssemblyName>LTools.Workflow, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
-                <Properties>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Name>Variable</Name>
-                        <Value xsi:type="xsd:string">companyName</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Data</Name>
-                        <Value xsi:type="xsd:string">in_bitrixCompany.SelectToken("$.TITLE").ToString()</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Название компании в Bitrix</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-=======
                         <Name>IsCollapsed</Name>
                         <Value xsi:type="xsd:boolean">false</Value>
                     </SerializationItem>
@@ -346,17 +180,15 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Адрес для запроса Bitrix</Value>
+                        <Value xsi:type="xsd:string">Assign</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
->>>>>>> Stashed changes:Set start data.ltw
                         <Name>Annotation</Name>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>TextTag</Name>
-                        <Value xsi:type="xsd:string">Then</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -369,11 +201,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xmlns:q4="http://microsoft.com/wsdl/types/" xsi:type="q4:guid">f10b86cd-d421-486e-8b9e-8070de8336c3</Value>
-=======
                         <Value xmlns:q3="http://microsoft.com/wsdl/types/" xsi:type="q3:guid">88a60c7b-14fc-4738-b456-7bd29703f40b</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -424,29 +252,17 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Variable</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">companyPhone</Value>
-=======
                         <Value xsi:type="xsd:string">out_sdApiToken</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Data</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">in_bitrixCompany.SelectToken("$.TITLE").ToString()</Value>
-=======
                         <Value xsi:type="xsd:string">"ae095dff50035a3dd6fd64405de7bf57c1d08e6e"</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">Название компании в Bitrix</Value>
-=======
-                        <Value xsi:type="xsd:string">Токен SD api</Value>
->>>>>>> Stashed changes:Set start data.ltw
+                        <Value xsi:type="xsd:string">Assign</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -455,7 +271,6 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>TextTag</Name>
-                        <Value xsi:type="xsd:string">Then</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -468,11 +283,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xmlns:q5="http://microsoft.com/wsdl/types/" xsi:type="q5:guid">d9fb6286-983e-49a2-b754-c2b5c7fe02c7</Value>
-=======
                         <Value xmlns:q4="http://microsoft.com/wsdl/types/" xsi:type="q4:guid">e3b3ad3f-5fe7-4340-b0a3-055400da8e09</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -523,29 +334,17 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Variable</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">companySite</Value>
-=======
                         <Value xsi:type="xsd:string">out_sdCompanyListUrl</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Data</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">in_bitrixCompany.SelectToken("$.TITLE").ToString()</Value>
-=======
                         <Value xsi:type="xsd:string">"https://sd.primo-rpa.ru/api/v1/companies/list"</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">Название компании в Bitrix</Value>
-=======
-                        <Value xsi:type="xsd:string">Адрес для получения списка компаний из SD</Value>
->>>>>>> Stashed changes:Set start data.ltw
+                        <Value xsi:type="xsd:string">Assign</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -554,7 +353,6 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>TextTag</Name>
-                        <Value xsi:type="xsd:string">Then</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -567,11 +365,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xmlns:q6="http://microsoft.com/wsdl/types/" xsi:type="q6:guid">9dc6eec0-4ccc-44d9-9a50-584ad4bbc57d</Value>
-=======
                         <Value xmlns:q5="http://microsoft.com/wsdl/types/" xsi:type="q5:guid">89b58c96-f9b6-449f-815c-3e32e317577c</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -622,29 +416,17 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Variable</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">out_sdPostUri</Value>
-=======
                         <Value xsi:type="xsd:string">out_sdCompanyPostUrl</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Data</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">String.Format("{0}?api_token={1}&amp;name={2}&amp;site={3}&amp;email={4}&amp;phone={5}&amp;address={6}&amp;crm_1c_id={7}", in_sdPostUrl, in_apiToken, companyName, companySite, companyEmail, companyPhone, companyAddress, in_bId)</Value>
-=======
                         <Value xsi:type="xsd:string">"https://sd.primo-rpa.ru/api/v1/companies/"</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xsi:type="xsd:string">Формируем URI для запроса</Value>
-=======
-                        <Value xsi:type="xsd:string">Адрес для создания и изменения компаний в SD</Value>
->>>>>>> Stashed changes:Set start data.ltw
+                        <Value xsi:type="xsd:string">Assign</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -665,123 +447,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-<<<<<<< Updated upstream:Post to SD.ltw
-                        <Value xmlns:q7="http://microsoft.com/wsdl/types/" xsi:type="q7:guid">3a5ec237-eb2a-4a4b-955e-fa84adc8a327</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ContinueOnException</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>PreventLogging</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>SSSuccess</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>SSFail</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>true</IsListValue>
-                        <Name>NoCodeProperties</Name>
-                        <ListValue />
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>NoCodeUsed</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>IsCollapsed</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ShowAnnotation</Name>
-                        <Value xsi:type="xsd:boolean">false</Value>
-                    </SerializationItem>
-                </Properties>
-            </SerializationComponent>
-            <SerializationComponent>
-                <ClassName>LTools.Network.Elements.WFWebRequest</ClassName>
-                <AssemblyName>LTools.Network, Version=1.0.2.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
-                <Properties>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Запрос Web-сервиса</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Annotation</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>SerializedItem</Name>
-                        <Value xsi:type="xsd:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;TrafficHistoryItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
-    &lt;URL&gt;out_sdPostUri&lt;/URL&gt;
-    &lt;Method&gt;POST&lt;/Method&gt;
-    &lt;ContentType&gt;application/json&lt;/ContentType&gt;
-    &lt;Headers /&gt;
-&lt;/TrafficHistoryItem&gt;</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>URL</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Body</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Headers</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Input</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>TimeOut</Name>
-                        <Value xsi:type="xsd:string">20000</Value>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>Variable</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>DFile</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>TextTag</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>WaitBefore</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>WaitAfter</Name>
-                    </SerializationItem>
-                    <SerializationItem>
-                        <IsListValue>false</IsListValue>
-                        <Name>ComponentID</Name>
-                        <Value xmlns:q8="http://microsoft.com/wsdl/types/" xsi:type="q8:guid">5c7949a7-03ab-400b-8710-5dce9a9ea733</Value>
-=======
                         <Value xmlns:q6="http://microsoft.com/wsdl/types/" xsi:type="q6:guid">a117598e-b585-462c-8b7a-149b1b664657</Value>
->>>>>>> Stashed changes:Set start data.ltw
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -830,37 +496,12 @@
     <GlobalVariables />
     <Arguments>
         <ScriptVariable>
-<<<<<<< Updated upstream:Post to SD.ltw
-            <Name>companyName</Name>
-=======
             <Name>out_bitrixCompanyListUrl</Name>
->>>>>>> Stashed changes:Set start data.ltw
             <Group />
             <DataTypeString>String</DataTypeString>
             <Direction>OUT</Direction>
         </ScriptVariable>
         <ScriptVariable>
-<<<<<<< Updated upstream:Post to SD.ltw
-            <Name>companyAddress</Name>
-            <Group />
-            <DataTypeString>String</DataTypeString>
-            <Direction>IN_OUT</Direction>
-        </ScriptVariable>
-        <ScriptVariable>
-            <Name>companyPhone</Name>
-            <Group />
-            <DataTypeString>String</DataTypeString>
-            <Direction>IN_OUT</Direction>
-        </ScriptVariable>
-        <ScriptVariable>
-            <Name>companySite</Name>
-            <Group />
-            <DataTypeString>String</DataTypeString>
-            <Direction>IN_OUT</Direction>
-        </ScriptVariable>
-        <ScriptVariable>
-            <Name>sdPostUri</Name>
-=======
             <Name>out_sdApiToken</Name>
             <Group />
             <DataTypeString>String</DataTypeString>
@@ -874,55 +515,15 @@
         </ScriptVariable>
         <ScriptVariable>
             <Name>out_sdCompanyPostUrl</Name>
->>>>>>> Stashed changes:Set start data.ltw
             <Group />
             <DataTypeString>String</DataTypeString>
             <Direction>OUT</Direction>
         </ScriptVariable>
         <ScriptVariable>
-<<<<<<< Updated upstream:Post to SD.ltw
-            <Name>companyEmail</Name>
-=======
             <Name>out_pathToFolder</Name>
->>>>>>> Stashed changes:Set start data.ltw
             <Group />
             <DataTypeString>String</DataTypeString>
             <Direction>OUT</Direction>
         </ScriptVariable>
-<<<<<<< Updated upstream:Post to SD.ltw
-    </GlobalVariables>
-    <Arguments>
-        <ScriptVariable>
-            <Name>in_bitrixCompany</Name>
-            <Group />
-            <DataTypeString>Newtonsoft.Json.Linq.JToken</DataTypeString>
-            <Direction>IN</Direction>
-        </ScriptVariable>
-        <ScriptVariable>
-            <Name>in_sdPostUrl</Name>
-            <Group />
-            <DataTypeString>String</DataTypeString>
-            <Direction>IN</Direction>
-        </ScriptVariable>
-        <ScriptVariable>
-            <Name>in_apiToken</Name>
-            <Group />
-            <DataTypeString>String</DataTypeString>
-            <Direction>IN</Direction>
-        </ScriptVariable>
-        <ScriptVariable>
-            <Name>out_sdPostUri</Name>
-            <Group />
-            <DataTypeString>String</DataTypeString>
-            <Direction>OUT</Direction>
-        </ScriptVariable>
-        <ScriptVariable>
-            <Name>in_bId</Name>
-            <Group />
-            <DataTypeString>String</DataTypeString>
-            <Direction>IN</Direction>
-        </ScriptVariable>
-=======
->>>>>>> Stashed changes:Set start data.ltw
     </Arguments>
 </SerializationRoot>

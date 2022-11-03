@@ -1,90 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
 <LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <WatchScripts />
-    <Ignored>
-        <KeyValueItem>
-            <Key>Y:\Job\Rondem\Projects\Bitrix24 to SD\Test.ltw</Key>
-            <Value>f3a75dad-0305-432b-b6ac-a354c6c67a9b</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>C:\JOB\Rondem\Projects\Bitrix24 to SD\Version 2\Main2.ltw</Key>
-            <Value>e5a5585d-4f02-4a54-933a-af07d23a88b8</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>C:\JOB\Rondem\Projects\Bitrix24 to SD\Version 1\Main.ltw</Key>
-            <Value>a92ccae7-9d96-4957-9cfc-b640f47d43d3</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>C:\JOB\Rondem\Git\A.Tveretskiy\Version2\Post to SD only name.ltw</Key>
-            <Value>e6abff69-ddb8-4ec0-8a02-6dcaaec119b4</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>C:\JOB\Rondem\Git\Bitrix_to_SD\Patch name to SD.ltw</Key>
-            <Value>29b4a721-de10-421d-8e34-3487bdfd5611</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>C:\JOB\Rondem\Git\Bitrix_to_SD\Post to SD.ltw</Key>
-            <Value>5c7949a7-03ab-400b-8710-5dce9a9ea733</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>D:\Git\Bitrix_to_SD\Main.ltw</Key>
-            <Value>de2ccc1c-60f6-4a09-9ab4-eb9655b85981</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>D:\Git\Bitrix_to_SD\Post to SD.ltw</Key>
-            <Value>5c7949a7-03ab-400b-8710-5dce9a9ea733</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>D:\Git\Bitrix_to_SD\Patch name to SD.ltw</Key>
-            <Value>29b4a721-de10-421d-8e34-3487bdfd5611</Value>
-        </KeyValueItem>
-<<<<<<< Updated upstream
-=======
-        <KeyValueItem>
-            <Key>D:\Git\Bitrix_to_SD\Test\SD search.ltw</Key>
-            <Value>35e67593-7b52-4c1a-840b-6ad278b1932f</Value>
-        </KeyValueItem>
-        <KeyValueItem>
-            <Key>D:\Git\Bitrix_to_SD\Test\SD search.ltw</Key>
-            <Value>077b32d7-875b-495c-8bb0-2b13186a3450</Value>
-        </KeyValueItem>
->>>>>>> Stashed changes
-    </Ignored>
+    <Ignored />
     <Breakpoints />
-    <Git>
-        <PathToRepo>C:\Documents\Primo\Bitrix24 to SD\.git\</PathToRepo>
-    </Git>
+    <Git />
     <LastOpenedItems>
-        <string>C:\Users\Ilya Kochetov\Documents\Primo\Bitrix24 to SD\Данные из SD.ltw</string>
-        <string>C:\Users\Ilya Kochetov\Documents\Primo\Bitrix24 to SD\Данные из Bitrix24.ltw</string>
-        <string>C:\JOB\Rondem\Projects\Bitrix24 to SD\Д†≠≠л• ®І Bitrix24.ltw</string>
-        <string>C:\JOB\Rondem\Projects\Bitrix24 to SD\Д†≠≠л• ®І SD.ltw</string>
-        <string>Y:\Job\Rondem\Projects\Bitrix24 to SD\Test.ltw</string>
-        <string>Y:\Job\Rondem\Projects\Bitrix24 to SD\Данные из Bitrix24.ltw</string>
-        <string>Y:\Job\Rondem\Projects\Bitrix24 to SD\Main.ltw</string>
-        <string>D:\JOB\Rondem\Projects\Bitrix24 to SD\Main2.ltw</string>
-        <string>D:\JOB\Rondem\Projects\Bitrix24 to SD\Main.ltw</string>
-        <string>D:\JOB\Rondem\Projects\Bitrix24 to SD\Данные из SD.ltw</string>
-        <string>D:\JOB\Rondem\Projects\Bitrix24 to SD\Данные из Bitrix24.ltw</string>
-        <string>C:\JOB\Rondem\Projects\Bitrix24 to SD\Version 2\Main3.ltw</string>
-        <string>C:\JOB\Rondem\Projects\Bitrix24 to SD\Version 2\Post to SD only name.ltw</string>
-        <string>C:\JOB\Rondem\Git\A.Tveretskiy\Version 2\Main.ltw</string>
-        <string>C:\JOB\Rondem\Git\A.Tveretskiy\Version2\Main.ltw</string>
-        <string>C:\JOB\Rondem\Git\Bitrix_to_SD\Version2\Main.ltw</string>
-        <string>C:\JOB\Rondem\Git\Bitrix_to_SD\Version2\Bitrix number of companies.ltw</string>
-        <string>C:\JOB\Rondem\Git\Bitrix_to_SD\Version2\Data from Bitrix24.ltw</string>
-        <string>C:\JOB\Rondem\Git\Bitrix_to_SD\Main.ltw</string>
-        <string>C:\JOB\Rondem\Git\Bitrix_to_SD\Patch name to SD.ltw</string>
-        <string>C:\JOB\Rondem\Git\Bitrix_to_SD\Post to SD.ltw</string>
-<<<<<<< Updated upstream
-        <string>D:\Git\Bitrix_to_SD\Main.ltw</string>
-        <string>D:\Git\Bitrix_to_SD\Bitrix number of companies.ltw</string>
-        <string>D:\Git\Bitrix_to_SD\Data from Bitrix24.ltw</string>
-        <string>D:\Git\Bitrix_to_SD\Post to SD.ltw</string>
-        <string>D:\Git\Bitrix_to_SD\Patch name to SD.ltw</string>
-=======
-        <string>D:\Git\Bitrix_to_SD\Post to SD.ltw</string>
-        <string>D:\Git\Bitrix_to_SD\Main.ltw</string>
->>>>>>> Stashed changes
+        <string>D:\Git\Sync_Bitrix_to_SD\Main.ltw</string>
+        <string>D:\Git\Sync_Bitrix_to_SD\Rename company in SD.ltw</string>
+        <string>D:\Git\Sync_Bitrix_to_SD\Create company in SD.ltw</string>
     </LastOpenedItems>
 </LTProjectResources>
