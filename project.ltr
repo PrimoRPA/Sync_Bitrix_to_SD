@@ -8,5 +8,9 @@
         <string>D:\Git\Sync_Bitrix_to_SD\Main.ltw</string>
         <string>D:\Git\Sync_Bitrix_to_SD\Rename company in SD.ltw</string>
         <string>D:\Git\Sync_Bitrix_to_SD\Create company in SD.ltw</string>
+        <string>D:\Git\Sync_Bitrix_to_SD\Data from Bitrix24.ltw</string>
+        <string>D:\Git\Sync_Bitrix_to_SD\Data from SD.ltw</string>
+        <string>D:\Git\Sync_Bitrix_to_SD\Set start data.ltw</string>
+        <string>D:\Git\Sync_Bitrix_to_SD\SD without Bitrix ID.ltw</string>
     </LastOpenedItems>
 </LTProjectResources>

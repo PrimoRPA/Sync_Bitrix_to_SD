@@ -379,7 +379,7 @@
         <ScriptVariable>
             <Name>in_CompanyListUrl</Name>
             <Group />
-            <DefaultValue xsi:type="xsd:string">"https://rondem.bitrix24.ru/rest/18/ur6o1psp02whofpq/crm.company.list.json?SELECT[]=COMPANY_TYPE&amp;SELECT[]=TITLE"</DefaultValue>
+            <DefaultValue xsi:type="xsd:string">"https://rondem.bitrix24.ru/rest/48/qqp1ozdorlwblee2//crm.company.list.json?SELECT[]=COMPANY_TYPE&amp;SELECT[]=TITLE"</DefaultValue>
             <DataTypeString>String</DataTypeString>
             <Direction>IN</Direction>
         </ScriptVariable>
