@@ -10,6 +10,15 @@
         <Properties>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
+                <Name>ComponentName</Name>
+                <Value xsi:type="xsd:string">Sequence</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>Annotation</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
                 <Name>TextTag</Name>
             </SerializationItem>
             <SerializationItem>
@@ -19,20 +28,11 @@
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
-                <Name>ComponentName</Name>
-                <Value xsi:type="xsd:string">Sequence</Value>
-            </SerializationItem>
-            <SerializationItem>
-                <IsListValue>false</IsListValue>
                 <Name>WaitBefore</Name>
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
                 <Name>WaitAfter</Name>
-            </SerializationItem>
-            <SerializationItem>
-                <IsListValue>false</IsListValue>
-                <Name>Annotation</Name>
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
@@ -175,12 +175,12 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Data</Name>
-                        <Value xsi:type="xsd:string">"https://rondem.bitrix24.ru/rest/18/b53wi5cmaaiwkfe1/crm.company.list.json?SELECT[]=TITLE&amp;SELECT[]=WEB&amp;SELECT[]=EMAIL&amp;SELECT[]=PHONE&amp;SELECT[]=ADDRESS&amp;SELECT[]=COMMENTS&amp;SELECT[]=ID"</Value>
+                        <Value xsi:type="xsd:string">"https://rondem.bitrix24.ru/rest/48/n4r5hbad5skjwh3p/crm.company.list.json?SELECT[]=TITLE&amp;SELECT[]=WEB&amp;SELECT[]=EMAIL&amp;SELECT[]=PHONE&amp;SELECT[]=ADDRESS&amp;SELECT[]=COMMENTS&amp;SELECT[]=ID"</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Assign</Value>
+                        <Value xsi:type="xsd:string">Вебхук Битрикс</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -262,7 +262,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Assign</Value>
+                        <Value xsi:type="xsd:string">SD Api Token</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -344,7 +344,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Assign</Value>
+                        <Value xsi:type="xsd:string">SD URL для получения списка компаний</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -426,7 +426,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Assign</Value>
+                        <Value xsi:type="xsd:string">SD URL для отправки POST запросов</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
