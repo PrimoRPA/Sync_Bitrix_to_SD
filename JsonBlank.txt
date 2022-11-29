@@ -6,11 +6,8 @@
     "phone": "",
     "address": "",
     "comment": "",
-    "parameters": {
-      "code": "bitrix_id",
-      "name": "ID компании в Bitrix24 CRM",
-      "field_type": "ftstring",
-      "value": ""
+    "custom_parameters": {
+      "bitrix_id": ""
     }
   }
 }
